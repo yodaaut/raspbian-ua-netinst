@@ -4,10 +4,10 @@ LOGFILE=/tmp/raspbian-ua-netinst.log
 
 # default options, can be overriden in installer-config.txt
 preset=base
-packages=vim,htop,apt-utils,ca-certificates,openssh-server,kmod,locales,iputils-ping,wget
+packages=vim,htop,apt-utils,ca-certificates,openssh-server,kmod,locales,iputils-ping,wget,net-tools,ifupdown
 mirror=http://mirrordirector.raspbian.org/raspbian/
 release=jessie
-hostname=dev-pi
+hostname=project-pi
 boot_volume_label=
 domainname=
 rootpw=welcome
